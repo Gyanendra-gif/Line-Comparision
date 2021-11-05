@@ -6,7 +6,9 @@ namespace LineComparision
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            LineCalculation ln = new LineCalculation();
+            ln.lengthMeasurement();
+            //Console.WriteLine("Welcome to Line Computation Program");
         }
     }
 }
